@@ -1,0 +1,11 @@
+name = Site Configuration
+description = Tracks site data. 
+core = 7.x
+package = Features
+version = 7.x-5.2
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = site_name
+features[variable][] = theme_default
